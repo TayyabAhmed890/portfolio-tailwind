@@ -25,7 +25,7 @@ const Navbar = () => {
       </ul>
       </div>
       <button className='hidden md:block px-4 py-3 bg-cyan-950 text-white rounded-lg mr-4'>
-        Visit Github
+        <Link href="https://github.com/TayyabAhmed890" target='_blank'>Visit Github</Link>
       </button>
       <div className='sm:hidden pr-4 text-white' onClick={toggleMenu}>
         {isMenuOpen ? <IoMdClose size={30}/>:

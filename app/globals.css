@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@keyframes Projects {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
+
+.Projects{
+    animation: Projects 0.8s ease-out;
+}
+
+@keyframes Skills {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+  }
+
+  .Skills{
+    animation: Skills 0.8s ease-in-out;
+}
+
+@keyframes Services {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  .Services{
+    animation: Services 0.8s ease-in-out;
+}

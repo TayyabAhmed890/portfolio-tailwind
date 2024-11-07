@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <>
       <h2 className='text-center text-5xl font-bold bg-cyan-950 text-white p-4'><span className='text-cyan-500'>Our</span> Services</h2>
-      <div className='flex bg-cyan-950 gap-5 items-center justify-center flex-wrap py-5 px-5'>
+      <div className='Services flex bg-cyan-950 gap-5 items-center justify-center flex-wrap py-5 px-5'>
         <div className='h-56 w-[500px] bg-cyan-500 rounded-lg p-5 flex flex-col gap-3 cursor-pointer hover:bg-cyan-600 hover:text-white hover:scale-95 transition-[1s]'>
           <Image className='' src="/code.png" alt="" height={50} width={50} />
           <h2 className='text-3xl font-black'>Web Development</h2>
