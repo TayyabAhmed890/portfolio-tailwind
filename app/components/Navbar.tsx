@@ -34,7 +34,7 @@ const Navbar = () => {
       </div>
       {
         isMenuOpen && (
-          <ul className='flex flex-col gap-3 w-full h-auto top-16  bg-white text-cyan-700 sm:hidden absolute '>
+          <ul className='flex flex-col gap-3 w-full h-auto top-16  bg-white text-cyan-700 sm:hidden absolute z-10 '>
         <Link className='hover:bg-cyan-700 hover:text-white py-4 px-4' href="/">Home</Link>
         <Link className='hover:bg-cyan-700 hover:text-white py-4 px-4' href="/Services">Services</Link>
         <Link className='hover:bg-cyan-700 hover:text-white py-4 px-4' href="/Projects">Projects</Link>
