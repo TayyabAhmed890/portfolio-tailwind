@@ -4,7 +4,10 @@
 
 
 
-
+*{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
 @keyframes Projects {
     from {
         transform: translateX(-100%);
